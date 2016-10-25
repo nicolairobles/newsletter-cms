@@ -1,0 +1,205 @@
+/* Homepage Styling */
+
+html.bg{
+	background-color: #161514 !important;
+  background: none;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.app.container{
+  padding-top: 0;
+  background-color: #161514 !important;
+}
+
+.homepage-welcome{
+
+}
+
+/* make ratings academy info area closer to top */
+.modal-center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 400px;
+  margin: -300px 0 0 -200px;
+}
+
+/*.modal-over{
+  position: absolute;
+}*/
+
+.ratings-text{
+  text-transform: uppercase; 
+  font-family: 'brandon-black'; 
+  letter-spacing: 8px; 
+  font-size: 55px;
+}
+
+.academy-text{
+  text-transform: uppercase; 
+  font-family: 'brandon-black'; 
+  letter-spacing: 8px; 
+  line-height: 16px; 
+  margin: 7%; 
+  font-size: 55px;
+}
+
+.subtitle-box{
+  font-size: 21px; 
+  margin: 10% 0 0 0;
+}
+
+.by-text{
+  color: #707276; 
+  font-style: italic; 
+  margin-right: 7px;
+}
+
+.nielsen-text{
+  color: #009dd9; 
+  text-transform: uppercase; 
+  font-family: 'brandon-thin'; 
+  letter-spacing: 3px;
+}
+
+.homepage-icon-box{
+  /*margin: 25%;*/
+}
+
+.homepage-button-container{
+  padding: 0 0 50px 0;
+}
+
+.homepage-description-text{
+  padding: 0 300px;
+  font-size: 13px; 
+  font-weight: bold; 
+  line-height:23px; 
+  margin-bottom: 10%;
+  font-family: 'brandon-medium'
+}
+
+.module-selection-box{
+  background-color: #ffffff;
+  height: 25%;
+  width: 100%;
+  bottom: 0;
+  /*position: absolute;*/
+}
+
+.choose-lesson-block{
+  height: 20%;
+  background-color: #009dd9;
+  padding: 13px;
+  font-family: brandon-black;
+  letter-spacing: 1px;
+}
+
+.choose-lesson-arrow{
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 8px solid #009dd9;
+  width: 0%;
+  margin: 0 50%;
+}
+
+.module-container{
+  display: inline-block; 
+  border: 3px solid; 
+  font-family: 'brandon-black';
+  height: 100%;
+  width: 30%;
+  vertical-align: top;
+}
+
+.module-container h1, .module-container h2{
+  font-size: 20px;
+}
+
+.module-1-container{
+  color: #d60037; 
+  border-color: #d60037;
+}
+
+.module-2-container{
+  color: #b21dac; 
+  border-color: #b21dac;
+}
+
+.module-3-container{
+  color: #8dc63f; 
+  border-color: #8dc63f;
+}
+
+.homepage-style {
+  color: #ffffff;
+  background-color: #161514;
+}
+
+.homepage-style.bg,
+.homepage-style .bg {
+  background-color: #161514;
+}
+
+.homepage-style a.list-group-item:hover,
+.homepage-style a.list-group-item:focus {
+  background-color: inherit;
+}
+
+/* Homepage buttons styling */
+.btn-homepage { 
+  font-family: 'brandon-black'; 
+  font-size: 10px; 
+  text-transform: uppercase; 
+  padding: 1px 9px; 
+  border: #ffffff 1px solid; 
+  color: #ffffff;
+  margin: 3px;
+} 
+ 
+.btn-homepage:hover, 
+.btn-homepage:focus, 
+.btn-homepage:active, 
+.btn-homepage.active, 
+.open .dropdown-toggle.btn-homepage { 
+  color: #161514; 
+  background-color: #fff; 
+  border-color: #161514; 
+  text-decoration: none;
+} 
+ 
+.btn-homepage:active, 
+.btn-homepage.active, 
+.open .dropdown-toggle.btn-homepage { 
+  background-image: none; 
+} 
+ 
+.btn-homepage.disabled, 
+.btn-homepage[disabled], 
+fieldset[disabled] .btn-homepage, 
+.btn-homepage.disabled:hover, 
+.btn-homepage[disabled]:hover, 
+fieldset[disabled] .btn-homepage:hover, 
+.btn-homepage.disabled:focus, 
+.btn-homepage[disabled]:focus, 
+fieldset[disabled] .btn-homepage:focus, 
+.btn-homepage.disabled:active, 
+.btn-homepage[disabled]:active, 
+fieldset[disabled] .btn-homepage:active, 
+.btn-homepage.disabled.active, 
+.btn-homepage[disabled].active, 
+fieldset[disabled] .btn-homepage.active { 
+  background-color: #707276; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-homepage .badge { 
+  color: #161514; 
+  background-color: #FFFFFF; 
+}
+
+.login-btn-container{
+  text-align: right;
+  padding: 2% 0 0 0;
+}

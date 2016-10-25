@@ -1,0 +1,164 @@
+
+<div class="homepage-style" ng-controller="HomepageCtrl"> 
+  <!-- Login Btn -->
+  <div class="login-btn-container">
+    <!-- <a ng-click="logIn()" class="btn-homepage">LOG IN</a> -->
+    
+    <!-- Login Partial -->
+<!--     <div id="login-container" ng-show="login" style="margin: 5%; position: absolute; margin: 2% 0 0 78%; z-index:1;">
+
+      <form class="form-horizontal" method="POST">
+        <input type="hidden" name="_csrf" value="ZB2sXgw1IYxE+tMM+BZz6A3514ZFRRmUWa2Dc=">
+          <div class="form-group">
+            <label class="col-sm-3 control-label" for="email">Email</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="email" name="email" id="email" placeholder="Email" autofocus required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 control-label" for="password">Password</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-7">
+              <button class="col-sm-3 btn btn-primary" type="submit"><i class="fa fa-user"></i>Login</button><a class="btn btn-link" href="/forgot">Forgot your password?</a>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-7"><hr>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-7">
+              <a class="btn btn-block btn-facebook btn-social" href="/auth/facebook"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
+              <a class="btn btn-block btn-twitter btn-social" href="/auth/twitter"><i class="fa fa-twitter"></i>Sign in with Twitter</a>
+              <a class="btn btn-block btn-google btn-social" href="/auth/google"><i class="fa fa-google-plus"></i>Sign in with Google</a>
+              <a class="btn btn-block btn-github btn-social" href="/auth/github"><i class="fa fa-github"></i>Sign in with GitHub</a>
+              <a class="btn btn-block btn-linkedin btn-social" href="/auth/linkedin"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</a>
+              <a class="btn btn-block btn-instagram btn-social" href="/auth/instagram"><i class="fa fa-instagram"></i>Sign in with Instagram</a>
+            </div>
+          </div>
+      </form>
+
+    </div> -->
+
+  </div>
+
+
+<!-- Main Content Section -->
+  <div class="animated fadeInUp text-center">
+  <br>
+    <!-- Ratings Text -->
+    <p style=" " class="h1 m-t m-b ratings-text">Ratings</p>
+    <!-- Academy Text -->
+    <p class="h1 m-t m-b academy-text">Academy</p>
+
+    <!-- Subtitle Text Paragraph -->
+    <p class="h2 m-t m-b subtitle-box">
+    <!-- by text -->
+    <span class="by-text">by</span>
+    <!-- Nielsen text -->
+    <span class="nielsen-text"><b>Nielsen</b></span>
+    </p>
+
+    <br><br><br>
+    <!-- Icon Placeholder -->
+        <div class="thumb-lg homepage-icon-box" >
+      <img src="img/p0.jpg" class="img-circle homepage-icon">
+    </div>
+
+    <br><br><br>
+
+    <p class="h2 m-t m-b homepage-description-text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+    </p>
+
+    <br><br>
+
+    <div class="homepage-button-container">
+      <!-- Access Buttons -->
+      <a ng-click="continueAsGuest()" class="btn-homepage">Continue as Guest</a>
+      <!-- <a ng-click="signUp()" class="btn-homepage">Sign Up</a> -->
+
+      <!-- Partials -->
+
+      <!-- Modules -->
+      <div id="homepage-modules-container" ng-show="guest" style="margin: 5%;">
+        <a href="#/media-overview/media-is" class="btn-homepage">media overview</a>
+        <a href="#/tv-overview/media-is" class="btn-homepage">tv overview</a>
+      </div>
+
+      <!-- Sign Up -->
+      <!-- <div id="signup-container" ng-show="signup" style="margin: 5%;">
+        
+        <form class="form-horizontal" id="signup-form" method="POST">
+          <input type="hidden" name="_csrf" value="cYNMuPpVHriGk743h0xIKpPZi9oW+SUYTHchw=">
+          <div class="form-group">
+            <label class="col-sm-3 control-label" for="email">Email</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="email" name="email" id="email" placeholder="Email" autofocus required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 control-label" for="password">Password</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 control-label" for="confirmPassword">Confirm Password</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-7">
+              <button class="btn btn-success" type="submit"><i class="fa fa-user-plus"></i>Signup</button>
+            </div>
+          </div>
+        </form>
+
+      </div> -->
+    </div>
+    
+  </div>
+
+</div>
+
+  <!-- <div class="animated fadeInUp text-center module-selection-box"> -->
+
+      <!-- Blue Bar -->
+      <!-- <div class="choose-lesson-block"> CHOOSE A LESSON TO START</div> -->
+
+      <!-- Little arrow -->
+      <!-- <div class="choose-lesson-arrow"></div> -->
+    
+      <!-- Module Container Area -->
+<!--       <div class="modules-container">
+        <div class="module-1-container module-container">
+          <h1>MEDIA OVERVIEW</h1>
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</h2>
+        </div>
+
+        <div class="module-2-container module-container">
+          <h1>WHAT ARE "RATINGS"</h1>
+          <h2>veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</h2>
+        </div>
+
+        <div class="module-3-container module-container">
+          <h1>NIELSEN MEASUREMENT STRATEGY</h1>
+          <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+        </div>
+        
+      </div>
+
+  </div> -->
+
+
